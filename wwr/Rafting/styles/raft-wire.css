@@ -4,15 +4,14 @@
 .home-title {
     font-family: Alkalami, Noto Serif, Indie Flower;
     font-size: 2em;
+    margin-top: 10px;
 }
 .msg {
     background-color: #78884a;
     line-height: 1.5em;
     padding: 35px;
   }
-.book, .join {
-    font-size: 18px;
-}
+
 :root { 
   --heading-font: Alkalami;
   --paragraph-font: Noto Serif, Indie Flower;
@@ -39,6 +38,9 @@ nav a {
 }
 #hero-msg h1, #hero-msg h4
 .button-box
+main section img {
+    box-sizing: border-box;
+}
 main section {
     text-align: center;
 }
@@ -75,12 +77,17 @@ nav a:hover
     color: lightgray;
     font-size: 12px;
 }
-.book, .join
+.card-img {
+    border: 10px solid tan;
+}
 .book:hover, .join:hover
 .msg h2
 h2 {
     margin: 0;
 }
+.rivers-card, .camping-card, .rapids-card {  
+    margin: 200px 0;
+}  
 .msg p {
     font-size: .8em;
     padding-bottom: 15px;
@@ -88,6 +95,7 @@ h2 {
 footer {
     background-color: darkgreen;
     padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a
 footer a:hover
@@ -106,6 +114,10 @@ nav a{
     text-decoration: none;
     text-align: center;
     color: #fcfbfb;
+    padding: 15px 30px;
+    margin-top: 50px;
+    font-size: 18px;
+    border-radius: 5px;
 }
 footer a{
     text-decoration: none;
