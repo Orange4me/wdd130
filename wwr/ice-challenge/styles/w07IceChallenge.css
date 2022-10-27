@@ -1,0 +1,17 @@
+.everything{
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+}
+main .content1{
+    background-color: grey;
+    grid-column: 2/3;
+    height: 400px;
+
+}
+img {
+    grid-column: 1/2;
+
+}
+h1 {
+    font-size: 20px;
+}
