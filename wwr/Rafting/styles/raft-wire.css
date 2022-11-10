@@ -6,6 +6,7 @@
 
 
 
+
 header {
     display: grid;
     grid-template-columns: 150px auto;
@@ -16,10 +17,42 @@ header {
     font-size: 2em;
     margin-top: 10px;
 }
+.logo{
+    width: 80px;
+}
+#logo_link {
+    text-align: center;
+    padding: 5px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+    grid-column: 1/2;
+}
 .linker {
     grid-column: 2/3;
 }
 
+#hero{
+    display: grid;
+    grid-template-columns: 1fr, 3fr, 1fr;
+    height: 500px;
+    text-align: center;
+    max-width: 90%;
+    margin-top: -15px; 
+}
+#hero_box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg h4 {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
 
 
 
@@ -50,44 +83,9 @@ main {
     display: flex;
     justify-content: space-around;
 }
-:root { 
-  --heading-font: Alkalami;
-  --paragraph-font: Noto Serif, Indie Flower;
-}
 
-#hero{
-    display: grid;
-    grid-template-columns: 1fr, 3fr, 1fr;
-    height: 500px;
-    text-align: center;
-    max-width: 90%;
-    margin-top: -15px; 
-}
-#hero_box{
-    grid-column: 1/4;
-    grid-row: 1/3;
-    z-index: -1;
-}
-#hero-msg h4 {
-    color: white;
-    text-align: center;
-    margin: 0 auto;
-    grid-column: 2/3;
-    grid-row: 1/2;
-    margin-top: 100px;
-}
 
-.logo{
-    width: 80px;
-}
-#logo_link {
-    text-align: center;
-    padding: 5px;
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
-    grid-column: 1/2;
-}
+
 nav a {
     text-align: center;
     padding: 35px;
@@ -104,6 +102,11 @@ main section {
     background-color: darkgreen;
     
 }
+.icon{
+    padding-top: 10px;
+}
+
+
 
 nav a:hover {
     background-color: black;
@@ -111,8 +114,7 @@ nav a:hover {
 .book, .join {
     padding: 15px 30px;
 }
-.book:hover, .join:hover
-#background
+
 section.msg{
     background-color: brown;
 }
@@ -124,8 +126,7 @@ section.msg{
 .card-img {
     border: 10px solid tan;
 }
-.book:hover, .join:hover
-.msg h2
+
 h2 {
     margin: 0;
 }
@@ -143,9 +144,6 @@ footer {
 }
 footer .social img {
     padding-top: 15px;
-}
-.icon{
-    padding-top: 10px;
 }
 nav a{
     text-decoration: none;
