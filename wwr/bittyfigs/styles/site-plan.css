@@ -30,6 +30,7 @@ Fonts are separated by a | */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
+  
   max-width: 1200px;
   margin: 0 auto;
   padding: 4em;
@@ -38,6 +39,7 @@ body {
 }
 img {
   display: block;
+
   margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6 {
